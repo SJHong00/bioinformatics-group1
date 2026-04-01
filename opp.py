@@ -14,7 +14,7 @@ FIXED_PORTFOLIO = {
 START_DATE = "2026-03-27"
 FINAL_TARGET_DATE = datetime(2026, 6, 19)
 
-st.title("🧪 1조 바이오 포트폴리오 성과 분석기")
+st.title("🧪 1조 BIT 포트폴리오 성과 분석기")
 st.info(f"투자 시작일: {START_DATE} | 최종 평가일: 2026-06-19")
 
 # 2. 사용자 입력: 중간 점검 날짜
