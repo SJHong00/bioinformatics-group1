@@ -71,7 +71,7 @@ if st.button("성과 분석 실행"):
             
             fig, ax = plt.subplots(figsize=(10, 4))
             ax.plot(portfolio_pct.index, portfolio_pct, color='green', linewidth=2)
-            ax.set_ylabel("수익률 (%)")
+            ax.set_ylabel("Return (%)")
             ax.grid(True, alpha=0.3)
             st.pyplot(fig)
 
